@@ -1,0 +1,48 @@
+.clock {
+    width: 200px;
+    height: 200px;
+    border: 8px solid #009B77; /* Turkish Green */
+    border-radius: 50%;
+    position: relative;
+    margin: 20px auto;
+    background: white;
+  }
+  
+  .hand {
+    position: absolute;
+    background: #333;
+    transform-origin: bottom;
+    bottom: 50%;
+    left: 50%;
+    transform: rotate(90deg);
+  }
+  
+  .hour {
+    height: 50px;
+    width: 6px;
+    background: #009B77; /* Turkish Green */
+  }
+  
+  .minute {
+    height: 70px;
+    width: 4px;
+    background: #555;
+  }
+  
+  .second {
+    height: 90px;
+    width: 2px;
+    background: red;
+  }
+  
+  .center {
+    position: absolute;
+    background: #009B77; /* Turkish Green */
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
